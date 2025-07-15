@@ -1,16 +1,34 @@
-<<<<<<< HEAD
-# React + Vite
+# 🌍 Job Portal for Remote Areas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React web app designed to help individuals in remote locations discover job opportunities, even with limited internet access or device capabilities.
 
-Currently, two official plugins are available:
+Built with **React + Vite** and powered by modern **Web APIs**, this project adapts to the user’s environment—network speed, location, and device status—to offer an optimized experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Job-Assignment
->>>>>>> 5147270df9f1ea58a283d11980f6460d31de2576
+- 📡 **Network Detection**: Detects slow internet connections using the **Network Information API**
+- 📍 **Location Awareness**: Uses the **Geolocation API** to display local job listings
+- 🖼️ **Image Lazy Loading**: Loads job images only when they appear on screen using the **Intersection Observer API**
+- 🔋 **Battery Level Detection**: Warns users if battery is critically low (via **Battery API**)
+- 📴 **Offline Mode**: Detects when the user is offline and disables features accordingly
+- 📋 **Clipboard Access**: Lets users copy job titles easily (via **Clipboard API**)
+- 🕒 **Simulated Background Sync**: Mocks background sync behavior for learning purposes
+
+---
+
+## 🛠 Tech Stack
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- JavaScript Web APIs (Geolocation, Network Info, Intersection Observer, etc.)
+
+---
+
+## 📁 Project Structure
+
+<img width="1609" height="879" alt="image" src="https://github.com/user-attachments/assets/35893b75-21da-4c0e-bf1c-523e7a84fe98" />
+<img width="572" height="859" alt="image" src="https://github.com/user-attachments/assets/e093bdb6-59cc-4f54-ba90-7febb15a373b" />
+
