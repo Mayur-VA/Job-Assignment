@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/Job-Assignment/', // ✅ Make sure this matches your GitHub repo name
+  base: '/Job-Assignment/', 
   plugins: [react(),tailwindcss()],
 });
